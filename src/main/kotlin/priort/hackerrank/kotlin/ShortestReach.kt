@@ -4,8 +4,6 @@ import java.util.*
 import kotlin.collections.HashMap
 import kotlin.collections.HashSet
 
-//Solution to https://www.hackerrank.com/challenges/bfsshortreach/problem?h_r=internal-search
-
 data class Edge(val start: Int, val end: Int)
 
 typealias Graph = Map<Int, Set<Int>>
